@@ -8,11 +8,11 @@
 
 <div class="fixed flex w-full h-full">
 	<Outline />
-	<div class="prose m-5 flex-1 overflow-auto">
+	<div class="prose pl-5 m-5 flex-1 overflow-auto">
 		<h1>About Me</h1>
 
-		<h2><a id="interests">&#8203</a>Interests</h2>
-		<h3><a id="interests-languages">&#8203</a>Languages</h3>
+		<h2><a id="skills">&#8203</a>Skills</h2>
+		<h3><a id="skills-languages">&#8203</a>Languages</h3>
 		<Languages />
 		<h3>Frameworks</h3>
 		<Frameworks />
