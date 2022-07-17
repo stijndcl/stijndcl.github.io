@@ -1,12 +1,12 @@
 <script lang="ts">
-	import GitHubLogo from "$lib/assets/icons/github.svg";
+	import GitHub from "$lib/components/Icons/GitHub.svelte";
 </script>
 
 <div class="flex-none">
-	<button class="btn btn-square btn-link px-1 ml-1">
-		<GitHubLogo />
-	</button>
+	<a class="btn btn-square btn-link px-1 ml-1" href="/">
+		<GitHub />
+	</a>
 </div>
 <div class="flex-1">
-	<a href="/" class="btn btn-link normal-case text-xl text-white">stijndcl.github.io</a>
+	<a href="/" class="btn btn-link normal-case text-xl text-base-content">stijndcl.github.io</a>
 </div>
