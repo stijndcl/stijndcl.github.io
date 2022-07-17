@@ -3,7 +3,7 @@
 </script>
 
 <div class="flex-none">
-	<button class="btn btn-square btn-link">
+	<button class="btn btn-square btn-link px-1 ml-1">
 		<GitHubLogo />
 	</button>
 </div>
