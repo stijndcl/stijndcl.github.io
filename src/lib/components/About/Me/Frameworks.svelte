@@ -3,7 +3,6 @@
 </script>
 
 <ItemList>
-	<div>Python</div>
-	<div>C/C++</div>
-	<div>Kotlin</div>
+	<div>FastAPI</div>
+	<div>Android</div>
 </ItemList>
