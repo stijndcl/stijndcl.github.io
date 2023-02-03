@@ -18,7 +18,7 @@
 					anchor.scrollIntoView();
 				}
 			},
-			wantsMotion() ? 1000 : 0
+			wantsMotion() ? 500 : 0
 		);
 	});
 </script>
