@@ -9,5 +9,7 @@
 		<HeroButton href="experience" />
 		<span class="text-gray-600 px-2"> · </span>
 		<HeroButton href="skills" />
+		<span class="text-gray-600 px-2"> · </span>
+		<HeroButton href="projects" />
 	</HeroButtonContainer>
 </section>
