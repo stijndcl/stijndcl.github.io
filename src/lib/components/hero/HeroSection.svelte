@@ -1,6 +1,7 @@
 <script>
 	import HeroButtonContainer from "$lib/components/hero/HeroButtonContainer.svelte";
 	import HeroButton from "$lib/components/hero/HeroButton.svelte";
+	import Footer from "$lib/components/footer/Footer.svelte";
 </script>
 
 <section class="min-h-screen flex flex-col text-center items-center justify-center z-0">
@@ -12,4 +13,5 @@
 		<span class="text-gray-600 px-2"> · </span>
 		<HeroButton href="projects" />
 	</HeroButtonContainer>
+	<Footer />
 </section>

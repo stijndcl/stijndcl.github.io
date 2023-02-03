@@ -40,12 +40,12 @@
 			<ProjectsSection />
 		</main>
 	</PageFadeAnimation>
-	<Footer />
 </div>
 
 <style lang="postcss">
 	.custom-scrollbar::-webkit-scrollbar {
 		width: 16px;
+		height: 16px;
 	}
 
 	.custom-scrollbar::-webkit-scrollbar-track {
