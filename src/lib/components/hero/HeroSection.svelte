@@ -7,5 +7,7 @@
 	<h1 class="font-semibold text-6xl">Stijn De Clercq</h1>
 	<HeroButtonContainer>
 		<HeroButton href="experience" />
+		<span class="text-gray-600 px-2"> · </span>
+		<HeroButton href="skills" />
 	</HeroButtonContainer>
 </section>
