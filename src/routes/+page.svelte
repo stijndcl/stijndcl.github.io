@@ -31,7 +31,7 @@
 	});
 </script>
 
-<div class="h-screen motion-safe:scroll-smooth overflow-y-scroll">
+<div class="h-screen motion-safe:scroll-smooth overflow-y-scroll custom-scrollbar">
 	<PageFadeAnimation>
 		<main class="relative">
 			<HeroSection />
@@ -42,3 +42,24 @@
 	</PageFadeAnimation>
 	<Footer />
 </div>
+
+<style lang="postcss">
+	.custom-scrollbar::-webkit-scrollbar {
+		width: 16px;
+	}
+
+	.custom-scrollbar::-webkit-scrollbar-track {
+		border-radius: 100vh;
+		background: transparent;
+	}
+
+	.custom-scrollbar::-webkit-scrollbar-thumb {
+		background: theme(colors.gray.700);
+		border-radius: 100vh;
+		border: 5px solid theme(colors.gray.900);
+	}
+
+	.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+		background: theme(colors.gray.600);
+	}
+</style>
