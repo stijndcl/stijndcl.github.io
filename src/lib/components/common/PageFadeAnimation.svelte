@@ -1,19 +1,21 @@
 <script lang="ts">
 	import { fade } from "svelte/transition";
 	import { onMount } from "svelte";
-	import { wantsMotion } from "../../utils/animation";
+	import { pageAnimationOver } from "../../stores/animations";
 
 	let visible = false;
-	let reducedMotion = false;
 
 	onMount(() => {
-		reducedMotion = wantsMotion();
 		visible = true;
 	});
+
+	function onAnimationOver() {
+		pageAnimationOver.set(true);
+	}
 </script>
 
 {#if visible}
-	<span in:fade>
+	<span in:fade on:introend={onAnimationOver}>
 		<slot />
 	</span>
 {/if}
