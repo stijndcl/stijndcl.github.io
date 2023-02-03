@@ -2,7 +2,7 @@
 	export let title: string;
 </script>
 
-<section id={title.toLowerCase()} class="min-h-screen flex flex-col text-center items-center z-0 pt-10">
+<section id={title.toLowerCase()} class="min-h-screen flex flex-col text-center items-center z-0 pt-8 pb-16">
 	<h2 class="text-5xl font-semibold">{title}</h2>
 	<slot />
 </section>

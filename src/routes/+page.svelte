@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Header from "$lib/components/header/Header.svelte";
+	import Footer from "$lib/components/footer/Footer.svelte";
 	import HeroSection from "$lib/components/hero/HeroSection.svelte";
 	import ExperienceSection from "$lib/components/experience/ExperienceSection.svelte";
 	import { onMount } from "svelte";
@@ -31,7 +31,6 @@
 </script>
 
 <div class="h-screen motion-safe:scroll-smooth overflow-y-scroll">
-	<Header />
 	<PageFadeAnimation>
 		<main class="relative">
 			<HeroSection />
@@ -39,4 +38,5 @@
 			<SkillsSection />
 		</main>
 	</PageFadeAnimation>
+	<Footer />
 </div>
