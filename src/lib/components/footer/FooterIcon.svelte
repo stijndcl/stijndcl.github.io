@@ -2,7 +2,6 @@
 	export let platform: string;
 	export let username: string;
 	export let url: string;
-	export let brandColour: string;
 </script>
 
 <a
