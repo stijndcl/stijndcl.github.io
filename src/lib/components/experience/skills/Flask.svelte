@@ -3,6 +3,8 @@
 	import FlaskIcon from "../../../../assets/icons/flask.svg?component";
 </script>
 
-<ExperienceSkill tooltip="Flask" url="https://flask.palletsprojects.com/en/2.2.x/" class="fill-white">
-	<FlaskIcon />
+<ExperienceSkill tooltip="Flask" url="https://flask.palletsprojects.com/en/2.2.x/">
+	<span class="fill-white">
+		<FlaskIcon />
+	</span>
 </ExperienceSkill>

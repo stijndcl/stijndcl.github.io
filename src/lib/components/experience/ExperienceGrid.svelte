@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import ExperienceCard from "$lib/components/experience/ExperienceCard.svelte";
 	import DeliverectIcon from "../../../assets/icons/deliverect.svg?component";
 	import UGentIcon from "../../../assets/icons/ghent_university.svg?component";
