@@ -3,6 +3,7 @@
 	import SkillsGrid from "$lib/components/skills/SkillsGrid.svelte";
 	import SkillCard from "$lib/components/skills/SkillCard.svelte";
 	import PyCharmIcon from "../../../assets/icons/pycharm.png";
+	import WebStormIcon from "../../../assets/icons/webstorm.png";
 	import IntelliJIcon from "../../../assets/icons/intellij.png";
 	import GoLandIcon from "../../../assets/icons/goland.png";
 	import CLionIcon from "../../../assets/icons/clion.png";
@@ -18,6 +19,9 @@
 	<SkillsGrid>
 		<SkillCard name="PyCharm">
 			<img src={PyCharmIcon} alt="PyCharm" />
+		</SkillCard>
+		<SkillCard name="WebStorm">
+			<img src={WebStormIcon} alt="WebStorm" />
 		</SkillCard>
 		<SkillCard name="GoLand">
 			<img src={GoLandIcon} alt="GoLand" />
