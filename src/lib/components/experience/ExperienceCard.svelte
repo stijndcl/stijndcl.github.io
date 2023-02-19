@@ -22,7 +22,7 @@
 </script>
 
 <article
-	class="mx-2 lg:mx-0 p-6 bg-gray-900 motion-safe:supportshover:hover:group-hover/grid:scale-105 motion-safe:supportshover:group-hover/grid:[&:not(:hover)]:scale-95 rounded-lg border border-gray-700 shadow-lg shadow-black text-start group/card supportshover:opacity-40 supportshover:hover:opacity-100 supportshover:hover:border-cyan-400 motion-safe:transition-colors motion-safe:transition-opacity motion-safe:transition-transform motion-safe:duration-300 motion-safe:ease-in-out"
+	class="mx-2 lg:mx-0 p-6 bg-gray-900 motion-safe:supportshover:hover:group-hover/grid:scale-105 motion-safe:supportshover:group-hover/grid:[&:not(:hover)]:scale-95 rounded-lg border border-gray-700 shadow-lg shadow-black text-start group/card supportshover:opacity-40 supportshover:hover:opacity-100 supportshover:hover:border-cyan-400 motion-safe:transition motion-safe:duration-300 motion-safe:ease-in-out"
 >
 	<div class="flex justify-between items-center mb-5 text-gray-500">
 		<span class="font-bold text-xl text-white mr-5">

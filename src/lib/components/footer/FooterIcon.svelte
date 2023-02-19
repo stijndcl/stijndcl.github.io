@@ -4,7 +4,7 @@
 </script>
 
 <a
-	class="opacity-100 mx-3 flex flex-row supportshover:hover:cursor-pointer text-gray-600 supportshover:hover:text-white fill-gray-600 supportshover:hover:fill-white motion-safe:transition-colors motion-safe:ease-in-out motion-safe:duration-200"
+	class="opacity-100 mx-3 flex flex-row supportshover:hover:cursor-pointer text-gray-600 supportshover:hover:text-white fill-gray-600 supportshover:hover:fill-white motion-safe:transition-colors motion-safe:ease-in-out motion-safe:duration-300"
 	href={url}
 	target="_blank"
 	rel="noreferrer"

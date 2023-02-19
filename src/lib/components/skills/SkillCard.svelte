@@ -3,7 +3,7 @@
 </script>
 
 <div
-	class="rounded-lg border border-gray-500 p-6 supportshover:hover:border-cyan-400 motion-safe:transition-colors motion-safe:duration-200 motion-safe:ease-in-out"
+	class="rounded-lg border border-gray-700 p-6 supportshover:hover:scale-110 supportshover:hover:border-cyan-400 motion-safe:transition motion-safe:duration-300 motion-safe:ease-in-out"
 >
 	<div class="w-16">
 		<slot />
