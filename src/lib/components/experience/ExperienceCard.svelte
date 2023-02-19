@@ -22,7 +22,7 @@
 </script>
 
 <article
-	class="p-6 bg-gray-900 rounded-lg border border-gray-700 shadow-lg shadow-black text-start group supportshover:opacity-40 supportshover:hover:opacity-100 supportshover:hover:border-cyan-400 motion-safe:transition-colors motion-safe:transition-opacity motion-safe:duration-300 motion-safe:ease-in-out"
+	class="mx-2 lg:mx-0 p-6 bg-gray-900 rounded-lg border border-gray-700 shadow-lg shadow-black text-start group supportshover:opacity-40 supportshover:hover:opacity-100 supportshover:hover:border-cyan-400 motion-safe:transition-colors motion-safe:transition-opacity motion-safe:duration-300 motion-safe:ease-in-out"
 >
 	<div class="flex justify-between items-center mb-5 text-gray-500">
 		<span class="font-bold text-xl text-white mr-5">
@@ -30,7 +30,7 @@
 				<slot name="company-icon" slot="company-icon" />
 			</CompanyUrl>
 		</span>
-		<span class="text-sm">{formatDates()}</span>
+		<span class="text-sm text-right">{formatDates()}</span>
 	</div>
 	<h2 class="mb-2 text-2xl font-bold tracking-tight text-white">{role}</h2>
 	<div class="flex space-x-3">
@@ -42,7 +42,7 @@
 	{#if projectUrl != null}
 		<div class="mt-5 text-sm text-gray-500">
 			Project URL:
-			<a href={projectUrl} target="_blank" class="hover:underline">
+			<a href={projectUrl} target="_blank" rel="noreferrer" class="hover:underline">
 				{projectUrl}
 			</a>
 		</div>
