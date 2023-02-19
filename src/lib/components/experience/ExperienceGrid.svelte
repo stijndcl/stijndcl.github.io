@@ -2,6 +2,7 @@
 	import ExperienceCard from "$lib/components/experience/ExperienceCard.svelte";
 	import ArgoIcon from "../../../assets/icons/argo.svg?component";
 	import DeliverectIcon from "../../../assets/icons/deliverect.svg?component";
+	import HelmIcon from "../../../assets/icons/helm.svg?component";
 	import KubernetesIcon from "../../../assets/icons/kubernetes.svg?component";
 	import ExperienceSkill from "$lib/components/experience/ExperienceSkill.svelte";
 </script>
@@ -19,6 +20,9 @@
 			<svelte:fragment slot="skills-icons">
 				<ExperienceSkill>
 					<KubernetesIcon />
+				</ExperienceSkill>
+				<ExperienceSkill>
+					<HelmIcon />
 				</ExperienceSkill>
 				<ExperienceSkill>
 					<ArgoIcon />
