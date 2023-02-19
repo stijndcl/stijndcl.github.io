@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import SkillSubsection from "$lib/components/skills/SkillSubsection.svelte";
 	import SkillsGrid from "$lib/components/skills/SkillsGrid.svelte";
 	import SkillCard from "$lib/components/skills/SkillCard.svelte";
