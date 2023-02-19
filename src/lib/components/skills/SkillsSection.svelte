@@ -4,6 +4,7 @@
 	import ProgrammingLanguages from "$lib/components/skills/ProgrammingLanguages.svelte";
 	import Frameworks from "$lib/components/skills/Frameworks.svelte";
 	import Tools from "$lib/components/skills/Tools.svelte";
+	import DatabaseTechnologies from "$lib/components/skills/DatabaseTechnologies.svelte";
 </script>
 
 <PortfolioSection title="Skills">
@@ -11,7 +12,7 @@
 	<ProgrammingLanguages />
 	<Frameworks />
 	<Tools />
-	<SkillSubsection label="Database Technologies" />
+	<DatabaseTechnologies />
 	<SkillSubsection label="Software" />
 	<SkillSubsection label="Other" />
 	<SkillSubsection label="#TODO" />
