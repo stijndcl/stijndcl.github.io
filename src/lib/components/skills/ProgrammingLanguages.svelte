@@ -9,6 +9,9 @@
 	import KotlinIcon from "../../../assets/icons/kotlin.svg?component";
 	import CIcon from "../../../assets/icons/c.svg?component";
 	import CppIcon from "../../../assets/icons/cpp.svg?component";
+	import JavaIcon from "../../../assets/icons/java.svg?component";
+	import HTMLIcon from "../../../assets/icons/html5.svg?component";
+	import CSSIcon from "../../../assets/icons/css3.svg?component";
 </script>
 
 <SkillSubsection label="Programming Languages">
@@ -31,8 +34,17 @@
 		<SkillCard name="C">
 			<CIcon />
 		</SkillCard>
+		<SkillCard name="Java">
+			<JavaIcon />
+		</SkillCard>
 		<SkillCard name="C++">
 			<CppIcon />
+		</SkillCard>
+		<SkillCard name="HTML5">
+			<HTMLIcon />
+		</SkillCard>
+		<SkillCard name="CSS3">
+			<CSSIcon />
 		</SkillCard>
 	</SkillsGrid>
 </SkillSubsection>
