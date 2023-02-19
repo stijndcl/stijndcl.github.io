@@ -38,7 +38,7 @@
 		<slot />
 	</p>
 	{#if projectUrl != null}
-		<div class="mt-5 text-sm text-gray-400">
+		<div class="mt-5 text-sm text-gray-500">
 			Project URL:
 			<a href={projectUrl} target="_blank" class="hover:underline">
 				{projectUrl}
