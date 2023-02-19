@@ -15,7 +15,7 @@
 		};
 
 		const startFormatted = startDate.toLocaleDateString("en-GB", localeOptions);
-		const endFormatted = endDate != null ? ` — ${endDate.toLocaleDateString("en-GB", localeOptions)}` : "";
+		const endFormatted = endDate !== null ? ` — ${endDate.toLocaleDateString("en-GB", localeOptions)}` : "";
 
 		return startFormatted + endFormatted;
 	}
@@ -39,7 +39,7 @@
 	<p class="mt-5">
 		<slot />
 	</p>
-	{#if projectUrl != null}
+	{#if projectUrl !== null}
 		<div class="mt-5 text-sm text-gray-500">
 			Project URL:
 			<a href={projectUrl} target="_blank" rel="noreferrer" class="hover:underline">

@@ -1,9 +1,14 @@
 <script>
 	import PortfolioSection from "$lib/components/common/PortfolioSection.svelte";
 	import SkillSubsection from "$lib/components/skills/SkillSubsection.svelte";
+	import ProgrammingLanguages from "$lib/components/skills/ProgrammingLanguages.svelte";
 </script>
 
 <PortfolioSection title="Skills">
 	<span class="mb-5 text-gray-500 italic">In order of proficiency and frequency of use</span>
-	<SkillSubsection label="Programming Languages" />
+	<ProgrammingLanguages />
+	<SkillSubsection label="Frameworks" />
+	<SkillSubsection label="Tools" />
+	<SkillSubsection label="Database Technologies" />
+	<SkillSubsection label="Other" />
 </PortfolioSection>
