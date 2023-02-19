@@ -4,6 +4,11 @@
 	import SkillCard from "$lib/components/skills/SkillCard.svelte";
 	import PythonIcon from "../../../assets/icons/python.svg?component";
 	import TSIcon from "../../../assets/icons/typescript.svg?component";
+	import JSIcon from "../../../assets/icons/javascript.svg?component";
+	import GoIcon from "../../../assets/icons/go.svg?component";
+	import KotlinIcon from "../../../assets/icons/kotlin.svg?component";
+	import CIcon from "../../../assets/icons/c.svg?component";
+	import CppIcon from "../../../assets/icons/cpp.svg?component";
 </script>
 
 <SkillSubsection label="Programming Languages">
@@ -13,6 +18,21 @@
 		</SkillCard>
 		<SkillCard name="TypeScript">
 			<TSIcon />
+		</SkillCard>
+		<SkillCard name="JavaScript">
+			<JSIcon />
+		</SkillCard>
+		<SkillCard name="Go">
+			<GoIcon />
+		</SkillCard>
+		<SkillCard name="Kotlin">
+			<KotlinIcon />
+		</SkillCard>
+		<SkillCard name="C">
+			<CIcon />
+		</SkillCard>
+		<SkillCard name="C++">
+			<CppIcon />
 		</SkillCard>
 	</SkillsGrid>
 </SkillSubsection>

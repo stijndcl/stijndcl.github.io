@@ -10,5 +10,7 @@
 	<SkillSubsection label="Frameworks" />
 	<SkillSubsection label="Tools" />
 	<SkillSubsection label="Database Technologies" />
+	<SkillSubsection label="Software" />
 	<SkillSubsection label="Other" />
+	<SkillSubsection label="#TODO" />
 </PortfolioSection>
