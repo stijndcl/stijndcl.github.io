@@ -30,4 +30,7 @@
 		<span class="text-sm">{formatDates()}</span>
 	</div>
 	<h2 class="mb-2 text-2xl font-bold tracking-tight text-white">{role}</h2>
+	<div class="flex space-x-3">
+		<slot name="skills-icons" />
+	</div>
 </article>
