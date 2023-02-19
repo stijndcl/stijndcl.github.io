@@ -4,6 +4,12 @@
 	import Kubernetes from "$lib/components/experience/skills/Kubernetes.svelte";
 	import Helm from "$lib/components/experience/skills/Helm.svelte";
 	import Argo from "$lib/components/experience/skills/Argo.svelte";
+	import Python from "$lib/components/experience/skills/Python.svelte";
+	import Prometheus from "$lib/components/experience/skills/Prometheus.svelte";
+	import Grafana from "$lib/components/experience/skills/Grafana.svelte";
+	import MongoDB from "$lib/components/experience/skills/MongoDB.svelte";
+	import GoogleCloud from "$lib/components/experience/skills/GoogleCloud.svelte";
+	import Flask from "$lib/components/experience/skills/Flask.svelte";
 </script>
 
 <div class="mx-auto max-w-screen-xl lg:px-6">
@@ -20,7 +26,10 @@
 				<Kubernetes />
 				<Helm />
 				<Argo />
+				<GoogleCloud />
 			</svelte:fragment>
+			Created a CD for in-house applications using Argo CD & Helm Charts to create and run custom workflows with Argo Workflows,
+			deployed onto a Kubernetes cluster.
 		</ExperienceCard>
 		<ExperienceCard
 			companyName="Deliverect"
@@ -28,7 +37,13 @@
 			role="Backend Developer"
 			startDate={new Date(2022, 6)}
 		>
-			<!--			<DeliverectIcon slot="icon" />-->
+			<svelte:fragment slot="skills-icons">
+				<Python />
+				<MongoDB />
+				<Grafana />
+				<Prometheus />
+			</svelte:fragment>
+			Description
 		</ExperienceCard>
 		<ExperienceCard
 			companyName="Ghent University"
@@ -36,8 +51,15 @@
 			role="Software Developer"
 			startDate={new Date(2021, 7)}
 			endDate={new Date(2021, 11)}
+			projectUrl="https://github.com/dodona-edu/judge-html"
 		>
-			<!--			<DeliverectIcon slot="icon" />-->
+			<svelte:fragment slot="skills-icons">
+				<Python />
+			</svelte:fragment>
+			Created an HTML and CSS judge for Dodona, a platform that helps students to learn how to code by providing automated
+			feedback on exercises. <br /><br />The judge comes with a custom testing framework, allowing teachers to write a
+			series of checks for every exercise. This gives the students more flexibility as to how they solve the exercise,
+			as opposed to requiring a 1:1 resemblance to a solution file.
 		</ExperienceCard>
 		<ExperienceCard
 			companyName="Deliverect"
@@ -45,7 +67,12 @@
 			role="Backend Developer"
 			startDate={new Date(2021, 6)}
 		>
-			<!--			<DeliverectIcon slot="icon" />-->
+			<svelte:fragment slot="skills-icons">
+				<Python />
+				<Flask />
+			</svelte:fragment>
+			Created a REST API for an SMS and email service, and a tool that automatically generates and posts personalized pamflets
+			and flyers to potential future customers.
 		</ExperienceCard>
 	</div>
 </div>

@@ -5,7 +5,8 @@
 	export let companyUrl: string;
 	export let role: string;
 	export let startDate: Date;
-	export let endDate: Date | undefined = undefined;
+	export let endDate: Date | null = null;
+	export let projectUrl: string | null = null;
 
 	function formatDates(): string {
 		const localeOptions: Intl.DateTimeFormatOptions = {
@@ -14,7 +15,7 @@
 		};
 
 		const startFormatted = startDate.toLocaleDateString("en-GB", localeOptions);
-		const endFormatted = endDate != undefined ? ` — ${endDate.toLocaleDateString("en-GB", localeOptions)}` : "";
+		const endFormatted = endDate != null ? ` — ${endDate.toLocaleDateString("en-GB", localeOptions)}` : "";
 
 		return startFormatted + endFormatted;
 	}
@@ -33,4 +34,15 @@
 	<div class="flex space-x-3">
 		<slot name="skills-icons" />
 	</div>
+	<p class="mt-5">
+		<slot />
+	</p>
+	{#if projectUrl != null}
+		<div class="mt-5 text-sm text-gray-400">
+			Project URL:
+			<a href={projectUrl} target="_blank" class="hover:underline">
+				{projectUrl}
+			</a>
+		</div>
+	{/if}
 </article>
