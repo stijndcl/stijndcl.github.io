@@ -4,13 +4,35 @@
 <svg
    version="1.1"
    id="Layer_1"
-   viewBox="0 0 92.444274 89.529617"
+   viewBox="0 0 92.444 92.444"
    xml:space="preserve"
+   sodipodi:docname="kubernetes.svg"
+   inkscape:version="1.2.2 (1:1.2.2+202212051552+b0a8486541)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:dc="http://purl.org/dc/elements/1.1/"><defs
+   xmlns:dc="http://purl.org/dc/elements/1.1/"><sodipodi:namedview
+   id="namedview516"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   showgrid="false"
+   inkscape:zoom="9.4605565"
+   inkscape:cx="33.560394"
+   inkscape:cy="53.273822"
+   inkscape:window-width="1920"
+   inkscape:window-height="1019"
+   inkscape:window-x="0"
+   inkscape:window-y="30"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" /><defs
    id="defs29">
 	
 
@@ -30,7 +52,7 @@
    id="title4">Kubernetes_Logo_Hrz_lockup_REV</title>
 <g
    id="g223"
-   transform="translate(1.6251721,-87.003305)"><path
+   transform="translate(1.6250358,-85.546113)"><path
      class="st0"
      d="m 80.669993,108.30429 c -0.5,-1.6 -1.7,-2.9 -3.2,-3.7 l -30.5,-14.600004 c -0.8,-0.4 -1.7,-0.5 -2.5,-0.5 -0.8,0 -1.7,0 -2.5,0.2 l -30.5,14.700004 c -1.4999997,0.7 -2.5999997,2 -2.9999997,3.7 l -7.5,32.9 c -0.3,1.7 0.1,3.4 1.1,4.8 l 21.0999997,26.1 c 1.2,1.2 2.9,2 4.6,2.1 h 33.6 c 1.8,0.2 3.5,-0.6 4.6,-2.1 l 21.1,-26.1 c 1,-1.4 1.4,-3.1 1.2,-4.8 z"
      id="path6" /><path
