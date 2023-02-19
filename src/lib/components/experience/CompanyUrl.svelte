@@ -9,7 +9,12 @@
 	<CompanyIcon>
 		<slot name="company-icon" />
 	</CompanyIcon>
-	<a class="supportshover:hover:cursor-pointer supportshover:hover:underline my-auto" href={url} target="_blank">
+	<a
+		class="supportshover:hover:cursor-pointer supportshover:hover:underline my-auto"
+		href={url}
+		target="_blank"
+		rel="noreferrer"
+	>
 		{name}
 	</a>
 </div>

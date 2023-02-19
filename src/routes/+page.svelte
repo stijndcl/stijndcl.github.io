@@ -1,5 +1,4 @@
 <script lang="ts">
-	import Footer from "$lib/components/footer/Footer.svelte";
 	import HeroSection from "$lib/components/hero/HeroSection.svelte";
 	import ExperienceSection from "$lib/components/experience/ExperienceSection.svelte";
 	import { onMount } from "svelte";

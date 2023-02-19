@@ -5,11 +5,11 @@
 </script>
 
 <footer class="flex flex-row fixed bottom-0 justify-center my-3 py-3">
-	<FooterIcon platform="GitHub" username="stijndcl" url="https://www.github.com/stijndcl/">
+	<FooterIcon username="stijndcl" url="https://www.github.com/stijndcl/">
 		<GitHubIcon />
 	</FooterIcon>
 	<div class="md:hidden border-r-2 border-gray-600 mx-1" />
-	<FooterIcon platform="LinkedIn" username="stijn-de-clercq" url="https://www.linkedin.com/in/stijn-de-clercq/">
+	<FooterIcon username="stijn-de-clercq" url="https://www.linkedin.com/in/stijn-de-clercq/">
 		<LinkedInIcon />
 	</FooterIcon>
 </footer>

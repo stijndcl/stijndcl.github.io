@@ -1,5 +1,4 @@
 <script lang="ts">
-	export let platform: string;
 	export let username: string;
 	export let url: string;
 </script>
