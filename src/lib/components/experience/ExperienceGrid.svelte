@@ -10,6 +10,8 @@
 	import MongoDB from "$lib/components/experience/skills/MongoDB.svelte";
 	import GoogleCloud from "$lib/components/experience/skills/GoogleCloud.svelte";
 	import Flask from "$lib/components/experience/skills/Flask.svelte";
+	import TypeScript from "$lib/components/experience/skills/TypeScript.svelte";
+	import Vue from "$lib/components/experience/skills/Vue.svelte";
 </script>
 
 <div class="mx-auto max-w-screen-xl lg:px-6">
@@ -43,7 +45,7 @@
 				<Grafana />
 				<Prometheus />
 			</svelte:fragment>
-			Description
+			Worked on the core product, alongside various inside tools.
 		</ExperienceCard>
 		<ExperienceCard
 			companyName="Ghent University"
@@ -57,19 +59,20 @@
 				<Python />
 			</svelte:fragment>
 			Created an HTML and CSS judge for Dodona, a platform that helps students to learn how to code by providing automated
-			feedback on exercises. <br /><br />The judge comes with a custom testing framework, allowing teachers to write a
-			series of checks for every exercise. This gives the students more flexibility as to how they solve the exercise,
-			as opposed to requiring a 1:1 resemblance to a solution file.
+			feedback on exercises.
 		</ExperienceCard>
 		<ExperienceCard
 			companyName="Deliverect"
 			companyUrl="https://deliverect.com/"
-			role="Backend Developer"
+			role="Software Developer"
 			startDate={new Date(2021, 6)}
 		>
 			<svelte:fragment slot="skills-icons">
 				<Python />
 				<Flask />
+				<GoogleCloud />
+				<TypeScript />
+				<Vue />
 			</svelte:fragment>
 			Created a REST API for an SMS and email service, and a tool that automatically generates and posts personalized pamflets
 			and flyers to potential future customers.
