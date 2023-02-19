@@ -1,6 +1,7 @@
 <script>
 	import ExperienceCard from "$lib/components/experience/ExperienceCard.svelte";
 	import DeliverectIcon from "../../../assets/icons/deliverect.svg?component";
+	import UGentIcon from "../../../assets/icons/ghent_university.svg?component";
 	import Kubernetes from "$lib/components/experience/skills/Kubernetes.svelte";
 	import Helm from "$lib/components/experience/skills/Helm.svelte";
 	import Argo from "$lib/components/experience/skills/Argo.svelte";
@@ -23,7 +24,7 @@
 			startDate={new Date(2022, 9)}
 			endDate={new Date(2022, 11)}
 		>
-			<!--			<DeliverectIcon slot="icon" />-->
+			<DeliverectIcon slot="company-icon" />
 			<svelte:fragment slot="skills-icons">
 				<Kubernetes />
 				<Helm />
@@ -39,6 +40,7 @@
 			role="Backend Developer"
 			startDate={new Date(2022, 6)}
 		>
+			<DeliverectIcon slot="company-icon" />
 			<svelte:fragment slot="skills-icons">
 				<Python />
 				<MongoDB />
@@ -55,6 +57,7 @@
 			endDate={new Date(2021, 11)}
 			projectUrl="https://github.com/dodona-edu/judge-html"
 		>
+			<UGentIcon slot="company-icon" />
 			<svelte:fragment slot="skills-icons">
 				<Python />
 			</svelte:fragment>
@@ -67,6 +70,7 @@
 			role="Software Developer"
 			startDate={new Date(2021, 6)}
 		>
+			<DeliverectIcon slot="company-icon" />
 			<svelte:fragment slot="skills-icons">
 				<Python />
 				<Flask />

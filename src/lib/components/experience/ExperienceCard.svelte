@@ -26,7 +26,9 @@
 >
 	<div class="flex justify-between items-center mb-5 text-gray-500">
 		<span class="font-bold text-xl text-white mr-5">
-			<CompanyUrl name={companyName} url={companyUrl} />
+			<CompanyUrl name={companyName} url={companyUrl}>
+				<slot name="company-icon" slot="company-icon" />
+			</CompanyUrl>
 		</span>
 		<span class="text-sm">{formatDates()}</span>
 	</div>
