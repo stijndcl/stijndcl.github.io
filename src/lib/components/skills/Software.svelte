@@ -19,11 +19,11 @@
 		<SkillCard name="PyCharm">
 			<img src={PyCharmIcon} alt="PyCharm" />
 		</SkillCard>
-		<SkillCard name="IntelliJ IDEA">
-			<img src={IntelliJIcon} alt="IntelliJ IDEA" />
-		</SkillCard>
 		<SkillCard name="GoLand">
 			<img src={GoLandIcon} alt="GoLand" />
+		</SkillCard>
+		<SkillCard name="IntelliJ IDEA">
+			<img src={IntelliJIcon} alt="IntelliJ IDEA" />
 		</SkillCard>
 		<SkillCard name="CLion">
 			<img src={CLionIcon} alt="CLion" />
