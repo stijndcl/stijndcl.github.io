@@ -1,8 +1,8 @@
 <script>
 	import PortfolioSection from "$lib/components/common/PortfolioSection.svelte";
-	import ExperienceCarousel from "$lib/components/experience/ExperienceCarousel.svelte";
+	import ExperienceGrid from "$lib/components/experience/ExperienceGrid.svelte";
 </script>
 
 <PortfolioSection title="Experience">
-	<ExperienceCarousel />
+	<ExperienceGrid />
 </PortfolioSection>
