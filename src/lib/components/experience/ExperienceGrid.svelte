@@ -16,7 +16,7 @@
 </script>
 
 <div class="mx-auto max-w-screen-xl lg:px-6">
-	<div class="grid gap-8 lg:grid-cols-2">
+	<div class="grid gap-8 lg:grid-cols-2 group/grid">
 		<ExperienceCard
 			companyName="Deliverect"
 			companyUrl="https://deliverect.com/"

@@ -9,7 +9,7 @@
 	href={url}
 	target="_blank"
 	rel="noreferrer"
-	class="w-6 h-6 supportshover:grayscale supportshover:group-hover:grayscale-0 supportshover:hover:cursor-pointer"
+	class="w-6 h-6 supportshover:grayscale supportshover:group-hover/card:grayscale-0 supportshover:hover:cursor-pointer"
 >
 	<slot />
 </a>
