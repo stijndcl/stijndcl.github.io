@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import HeroButtonContainer from "$lib/components/hero/HeroButtonContainer.svelte";
 	import HeroButton from "$lib/components/hero/HeroButton.svelte";
 	import Footer from "$lib/components/footer/Footer.svelte";

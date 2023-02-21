@@ -1,12 +1,12 @@
-<script>
+<script lang="ts">
 	import PortfolioSection from "$lib/components/common/PortfolioSection.svelte";
-	import SkillSubsection from "$lib/components/skills/SkillSubsection.svelte";
 	import ProgrammingLanguages from "$lib/components/skills/ProgrammingLanguages.svelte";
 	import Frameworks from "$lib/components/skills/Frameworks.svelte";
 	import Tools from "$lib/components/skills/Tools.svelte";
 	import DatabaseTechnologies from "$lib/components/skills/DatabaseTechnologies.svelte";
 	import Software from "$lib/components/skills/Software.svelte";
 	import Todo from "$lib/components/skills/Todo.svelte";
+	import Other from "$lib/components/skills/Other.svelte";
 </script>
 
 <PortfolioSection title="Skills">
@@ -16,6 +16,6 @@
 	<Tools />
 	<DatabaseTechnologies />
 	<Software />
-	<SkillSubsection label="Other" />
+	<Other />
 	<Todo />
 </PortfolioSection>

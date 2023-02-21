@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import FooterIcon from "$lib/components/footer/FooterIcon.svelte";
 	import LinkedInIcon from "../../../assets/icons/linkedin.svg?component";
 	import GitHubIcon from "../../../assets/icons/github.svg?component";
