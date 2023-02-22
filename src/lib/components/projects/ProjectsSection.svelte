@@ -2,4 +2,5 @@
 	import PortfolioSection from "$lib/components/common/PortfolioSection.svelte";
 </script>
 
-<PortfolioSection title="Projects">VSC Plugin, ugent-food</PortfolioSection>
+<!-- TODO: VSC Plugin, ugent-food -->
+<PortfolioSection title="Projects">WIP</PortfolioSection>
