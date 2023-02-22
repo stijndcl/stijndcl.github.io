@@ -21,7 +21,9 @@
 					const hash = url.hash.replace("#", "");
 					if (hash !== "") {
 						const anchor = document.getElementById(hash);
-						anchor.scrollIntoView();
+						if (anchor) {
+							anchor.scrollIntoView();
+						}
 					}
 				},
 				wantsMotion() ? 200 : 0
