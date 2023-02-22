@@ -2,16 +2,17 @@
 	export let name: string | undefined = undefined;
 </script>
 
-<div
-	class="rounded-lg border border-gray-700 p-6 supportshover:hover:scale-110 supportshover:hover:border-cyan-400 motion-safe:transition-[border-color,transform] motion-safe:duration-300 motion-safe:ease-in-out"
->
-	<div class="w-16">
-		<slot />
+<div class="group/card">
+	<div
+		class="inline-block rounded-lg border border-gray-700 p-6 supportshover:hover:scale-110 supportshover:hover:border-cyan-400 motion-safe:transition-[border-color,transform] motion-safe:duration-300 motion-safe:ease-in-out"
+	>
+		<div class="w-16">
+			<slot />
+		</div>
 	</div>
-	<!-- TODO figure out how to add the label while keeping this square	-->
-	<!--{#if name !== undefined}-->
-	<!--	<div>-->
-	<!--		{name}-->
-	<!--	</div>-->
-	<!--{/if}-->
+	<div
+		class="py-3 font-bold text-gray-500 supportshover:group-hover/card:text-cyan-400 motion-safe:transition-colors motion-safe:duration-300 motion-safe:ease-in-out"
+	>
+		{name}
+	</div>
 </div>
