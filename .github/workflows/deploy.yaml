@@ -1,0 +1,31 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  Deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Node 18.14.0
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18.14.0"
+          cache: "yarn"
+      - name: Install dependencies
+        run: yarn install --prefer-offline
+      - name: Build
+        run: yarn build
+      - name: Prevent Jekyll from rendering
+        run: touch ./build/.nojekyll
+      - name: Deploy to GitHub pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_dir: ./build
+          enable_jekyll: false
+          commit_message: ${{ github.event.head_commit.message }}
