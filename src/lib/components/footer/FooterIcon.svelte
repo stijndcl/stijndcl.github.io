@@ -12,5 +12,5 @@
 	<div class="w-5 h-5">
 		<slot />
 	</div>
-	<span class="mx-4 hidden md:block">{username}</span>
+	<span class="ml-4 hidden md:block">{username}</span>
 </a>

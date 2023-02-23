@@ -4,7 +4,7 @@
 	import GitHubIcon from "../../../assets/icons/github.svg?component";
 </script>
 
-<footer class="flex flex-row fixed bottom-0 justify-center my-3 py-3">
+<footer class="z-10 flex flex-row fixed gap-2 md:gap-4 bottom-0 justify-center my-3 py-3">
 	<FooterIcon username="stijndcl" url="https://www.github.com/stijndcl/">
 		<GitHubIcon />
 	</FooterIcon>
