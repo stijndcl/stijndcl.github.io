@@ -6,7 +6,6 @@
 	import { wantsMotion } from "$lib/utils/animation.js";
 	import { pageAnimationOver } from "../lib/stores/animations";
 	import SkillsSection from "$lib/components/skills/SkillsSection.svelte";
-	import ProjectsSection from "$lib/components/projects/ProjectsSection.svelte";
 
 	// Auto-scroll to the part in the URL fragment
 	// this doesn't work automatically for whatever reason
@@ -38,7 +37,6 @@
 			<HeroSection />
 			<ExperienceSection />
 			<SkillsSection />
-			<ProjectsSection />
 		</main>
 	</PageFadeAnimation>
 </div>
