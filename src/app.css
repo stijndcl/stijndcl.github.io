@@ -13,11 +13,11 @@
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-    background: theme(colors.gray.700);
+    background: #374151;
     border-radius: 100vh;
-    border: 5px solid theme(colors.gray.900);
+    border: 5px solid #111827;
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-    background: theme(colors.gray.600);
+    background: #4b5563;
 }
