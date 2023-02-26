@@ -1006,4 +1006,4 @@ video {
     }
   }
 }
-html{color:#fff;background-color:#111827}
+html{color:#fff;background-color:#111827}@media(prefers-reduced-motion: no-preference){html{scroll-behavior:smooth}}
