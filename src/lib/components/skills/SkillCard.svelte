@@ -4,7 +4,7 @@
 
 <div class="group/card">
 	<div
-		class="inline-block rounded-lg border border-gray-700 p-6 supportshover:group-hover/card:scale-110 supportshover:group-hover/card:border-cyan-400 motion-safe:transition-[border-color,transform] motion-safe:duration-300 motion-safe:ease-in-out"
+		class="inline-block rounded-lg border border-gray-700 p-6 shadow-lg shadow-black/50 supportshover:group-hover/card:scale-110 supportshover:group-hover/card:border-cyan-400 motion-safe:transition-[border-color,transform] motion-safe:duration-300 motion-safe:ease-in-out"
 	>
 		<div class="w-16">
 			<slot />
