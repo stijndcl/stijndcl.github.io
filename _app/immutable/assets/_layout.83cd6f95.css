@@ -777,23 +777,23 @@ video {
 }
 
 .custom-scrollbar::-webkit-scrollbar {
-    width: 18px;
-    height: 18px;
+	width: 18px;
+	height: 18px;
 }
 
 .custom-scrollbar::-webkit-scrollbar-track {
-    border-radius: 100vh;
-    background: transparent;
+	border-radius: 100vh;
+	background: transparent;
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-    background: #374151;
-    border-radius: 100vh;
-    border: 5px solid #111827;
+	background: #374151;
+	border-radius: 100vh;
+	border: 5px solid #111827;
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-    background: #4b5563;
+	background: #4b5563;
 }
 
 .hover\:underline:hover {
@@ -1001,4 +1001,5 @@ video {
       transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
     }
   }
-}html{color:#fff;background-color:#111827}
+}
+html{color:#fff;background-color:#111827}
