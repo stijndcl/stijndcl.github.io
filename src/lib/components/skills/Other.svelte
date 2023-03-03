@@ -6,10 +6,12 @@
 
 <SkillSubsection label="Other">
 	<SkillsGrid>
+		<TextSkillCard name="OOP" />
 		<TextSkillCard name="REST APIs" />
 		<TextSkillCard name="Concurrency" />
 		<TextSkillCard name="TDD" />
 		<TextSkillCard name="CLI Tools" />
 		<TextSkillCard name="Websockets" />
+		<TextSkillCard name="Microservices" />
 	</SkillsGrid>
 </SkillSubsection>
