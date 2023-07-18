@@ -11,9 +11,9 @@
 	import Bootstrap from "../../../assets/icons/bootstrap.svg?component";
 	import Vue from "../../../assets/icons/vue.svg?component";
 	import Android from "../../../assets/icons/android.svg?component";
+	import Fiber from "../../../assets/icons/fiber.svg?component";
 	import Electron from "../../../assets/icons/electron.svg?component";
 	import Helm from "../../../assets/icons/helm.svg?component";
-	import Unity from "../../../assets/icons/unity.svg?component";
 </script>
 
 <SkillSubsection label="Frameworks">
@@ -45,14 +45,14 @@
 		<SkillCard name="Android">
 			<Android />
 		</SkillCard>
+		<SkillCard name="Fiber">
+			<Fiber />
+		</SkillCard>
 		<SkillCard name="Electron">
 			<Electron />
 		</SkillCard>
 		<SkillCard name="Helm">
 			<Helm />
-		</SkillCard>
-		<SkillCard name="Unity">
-			<Unity />
 		</SkillCard>
 	</SkillsGrid>
 </SkillSubsection>

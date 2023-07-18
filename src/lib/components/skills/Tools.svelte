@@ -8,6 +8,7 @@
 	import DockerIcon from "../../../assets/icons/docker.svg?component";
 	import LatexIcon from "../../../assets/icons/latex.svg?component";
 	import GitHubActions from "../../../assets/icons/github_actions.svg?component";
+	import HugoIcon from "../../../assets/icons/hugo.svg?component";
 	import GrafanaIcon from "../../../assets/icons/grafana.svg?component";
 	import PrometheusIcon from "../../../assets/icons/prometheus.svg?component";
 	import KubernetesIcon from "../../../assets/icons/kubernetes.svg?component";
@@ -34,6 +35,9 @@
 		</SkillCard>
 		<SkillCard name="GitHub Actions">
 			<GitHubActions />
+		</SkillCard>
+		<SkillCard name="Hugo">
+			<HugoIcon />
 		</SkillCard>
 		<SkillCard name="Grafana">
 			<GrafanaIcon />

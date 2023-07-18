@@ -19,17 +19,17 @@
 		<SkillCard name="Python">
 			<PythonIcon />
 		</SkillCard>
-		<SkillCard name="TypeScript">
-			<TSIcon />
-		</SkillCard>
-		<SkillCard name="JavaScript">
-			<JSIcon />
-		</SkillCard>
 		<SkillCard name="Go">
 			<GoIcon />
 		</SkillCard>
 		<SkillCard name="Kotlin">
 			<KotlinIcon />
+		</SkillCard>
+		<SkillCard name="TypeScript">
+			<TSIcon />
+		</SkillCard>
+		<SkillCard name="JavaScript">
+			<JSIcon />
 		</SkillCard>
 		<SkillCard name="C">
 			<CIcon />
