@@ -7,6 +7,7 @@
 	import JSIcon from "../../../assets/icons/javascript.svg?component";
 	import GoIcon from "../../../assets/icons/go.svg?component";
 	import KotlinIcon from "../../../assets/icons/kotlin.svg?component";
+	import RustIcon from "../../../assets/icons/rust.svg?component";
 	import CIcon from "../../../assets/icons/c.svg?component";
 	import CppIcon from "../../../assets/icons/cpp.svg?component";
 	import JavaIcon from "../../../assets/icons/java.svg?component";
@@ -24,6 +25,9 @@
 		</SkillCard>
 		<SkillCard name="Kotlin">
 			<KotlinIcon />
+		</SkillCard>
+		<SkillCard name="Rust">
+			<RustIcon />
 		</SkillCard>
 		<SkillCard name="TypeScript">
 			<TSIcon />

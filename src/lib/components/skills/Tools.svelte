@@ -14,6 +14,7 @@
 	import KubernetesIcon from "../../../assets/icons/kubernetes.svg?component";
 	import ArgoIcon from "../../../assets/icons/argo.svg?component";
 	import GCPIcon from "../../../assets/icons/google_cloud.svg?component";
+	import Helm from "../../../assets/icons/helm.svg?component";
 </script>
 
 <SkillSubsection label="Tools">
@@ -53,6 +54,9 @@
 		</SkillCard>
 		<SkillCard name="Google Cloud Platform">
 			<GCPIcon />
+		</SkillCard>
+		<SkillCard name="Helm">
+			<Helm />
 		</SkillCard>
 	</SkillsGrid>
 </SkillSubsection>

@@ -4,7 +4,6 @@
 	import SkillCard from "$lib/components/skills/SkillCard.svelte";
 	import FlutterIcon from "../../../assets/icons/flutter.png";
 	import UnrealIcon from "../../../assets/icons/unreal_engine.svg?component";
-	import ComposeIcon from "../../../assets/icons/jetpack_compose.png";
 	import ComposeMPFIcon from "../../../assets/icons/compose_mpf.svg?component";
 </script>
 
@@ -16,9 +15,6 @@
 		</SkillCard>
 		<SkillCard name="Unreal Engine">
 			<UnrealIcon />
-		</SkillCard>
-		<SkillCard name="Jetpack Compose">
-			<img src={ComposeIcon} alt="Jetpack Compose" />
 		</SkillCard>
 		<SkillCard name="Compose Multiplatform">
 			<ComposeMPFIcon />
