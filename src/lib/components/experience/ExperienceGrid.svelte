@@ -28,9 +28,9 @@
 		>
 			<LighthouseIcon slot="company-icon" />
 			<svelte:fragment slot="skills-icons">
-				<Go active={true} />
-				<Python active={true} />
-				<Rust active={true} />
+				<Go />
+				<Python />
+				<Rust />
 			</svelte:fragment>
 		</ActiveExperienceCard>
 		<ExperienceCard

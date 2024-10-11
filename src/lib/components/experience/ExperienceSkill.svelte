@@ -4,6 +4,7 @@
 	export let tooltip: string;
 	export let url: string;
 
+	// @ts-expect-error: context is always set, but impossible to type
 	const { active } = getContext("active");
 </script>
 
