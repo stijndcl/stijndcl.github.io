@@ -7,6 +7,18 @@ const config: UserConfig = {
 		sveltekit(),
 		svg({
 			includePaths: ["./src/assets/icons"],
+			svgoOptions: {
+				plugins: [
+					{
+						name: "preset-default",
+						params: {
+							overrides: {
+								cleanupIds: false,
+							},
+						},
+					},
+				],
+			},
 		}),
 	],
 };
