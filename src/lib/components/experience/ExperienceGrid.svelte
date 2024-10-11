@@ -1,6 +1,7 @@
 <script lang="ts">
 	import ExperienceCard from "$lib/components/experience/ExperienceCard.svelte";
 	import DeliverectIcon from "../../../assets/icons/deliverect.svg?component";
+	import LighthouseIcon from "../../../assets/icons/lighthouse.svg?component";
 	import UGentIcon from "../../../assets/icons/ghent_university.svg?component";
 	import Kubernetes from "$lib/components/experience/skills/Kubernetes.svelte";
 	import Helm from "$lib/components/experience/skills/Helm.svelte";
@@ -8,15 +9,30 @@
 	import Python from "$lib/components/experience/skills/Python.svelte";
 	import Prometheus from "$lib/components/experience/skills/Prometheus.svelte";
 	import Grafana from "$lib/components/experience/skills/Grafana.svelte";
+	import Go from "$lib/components/experience/skills/Gopher.svelte";
 	import MongoDB from "$lib/components/experience/skills/MongoDB.svelte";
 	import GoogleCloud from "$lib/components/experience/skills/GoogleCloud.svelte";
 	import Flask from "$lib/components/experience/skills/Flask.svelte";
 	import TypeScript from "$lib/components/experience/skills/TypeScript.svelte";
-	import Vue from "$lib/components/experience/skills/Vue.svelte";
+	import Rust from "$lib/components/experience/skills/Rust.svelte";
+	import ActiveExperienceCard from "$lib/components/experience/ActiveExperienceCard.svelte";
 </script>
 
 <div class="mx-auto max-w-screen-xl lg:px-6">
 	<div class="grid gap-8 lg:grid-cols-2 group/grid">
+		<ActiveExperienceCard
+			companyName="Lighthouse Intelligence"
+			companyUrl="https://www.mylighthouse.com/"
+			role="Backend Engineer & Crawler R&D"
+			startDate={new Date(2024, 8)}
+		>
+			<LighthouseIcon slot="company-icon" />
+			<svelte:fragment slot="skills-icons">
+				<Go active={true} />
+				<Python active={true} />
+				<Rust active={true} />
+			</svelte:fragment>
+		</ActiveExperienceCard>
 		<ExperienceCard
 			companyName="Deliverect"
 			companyUrl="https://deliverect.com/"
@@ -74,11 +90,9 @@
 			<svelte:fragment slot="skills-icons">
 				<Python />
 				<Flask />
-				<GoogleCloud />
 				<TypeScript />
-				<Vue />
 			</svelte:fragment>
-			Created a REST API for an SMS and email service, and a tool that automatically generates and posts personalized pamflets
+			Created a REST API for an SMS and email service, and a full-stack web app that automatically generates and posts personalized pamflets
 			and flyers to potential future customers.
 		</ExperienceCard>
 	</div>

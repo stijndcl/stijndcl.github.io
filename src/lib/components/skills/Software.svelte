@@ -10,7 +10,6 @@
 	import TyporaIcon from "../../../assets/icons/typora.png";
 	import PostmanIcon from "../../../assets/icons/postman.svg?component";
 	import InkscapeIcon from "../../../assets/icons/inkscape.png";
-	import VSCodeIcon from "../../../assets/icons/vscode.png";
 </script>
 
 <!-- Some icons here are .png's instead of .svg's, because of
@@ -20,14 +19,14 @@
 		<SkillCard name="PyCharm">
 			<img src={PyCharmIcon} alt="PyCharm" />
 		</SkillCard>
-		<SkillCard name="WebStorm">
-			<img src={WebStormIcon} alt="WebStorm" />
-		</SkillCard>
 		<SkillCard name="GoLand">
 			<img src={GoLandIcon} alt="GoLand" />
 		</SkillCard>
 		<SkillCard name="IntelliJ IDEA">
 			<img src={IntelliJIcon} alt="IntelliJ IDEA" />
+		</SkillCard>
+		<SkillCard name="WebStorm">
+			<img src={WebStormIcon} alt="WebStorm" />
 		</SkillCard>
 		<SkillCard name="CLion">
 			<img src={CLionIcon} alt="CLion" />
@@ -41,9 +40,6 @@
 		<SkillCard name="Inkscape">
 			<!--	This is very ironically not an SVG		-->
 			<img src={InkscapeIcon} alt="Inkscape" />
-		</SkillCard>
-		<SkillCard name="Visual Studio Code">
-			<img src={VSCodeIcon} alt="Visual Studio Code" />
 		</SkillCard>
 	</SkillsGrid>
 </SkillSubsection>

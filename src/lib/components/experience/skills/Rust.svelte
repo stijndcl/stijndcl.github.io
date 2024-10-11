@@ -1,10 +1,10 @@
 <script lang="ts">
 	import ExperienceSkill from "$lib/components/experience/ExperienceSkill.svelte";
-	import FlaskIcon from "../../../../assets/icons/flask.svg?component";
+	import RustIcon from "../../../../assets/icons/rust.svg?component";
 </script>
 
-<ExperienceSkill tooltip="Flask" url="https://flask.palletsprojects.com/">
+<ExperienceSkill tooltip="Rust" url="https://www.rust-lang.org/">
 	<span class="fill-white">
-		<FlaskIcon />
+		<RustIcon />
 	</span>
 </ExperienceSkill>

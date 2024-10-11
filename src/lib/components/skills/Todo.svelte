@@ -5,6 +5,7 @@
 	import FlutterIcon from "../../../assets/icons/flutter.png";
 	import UnrealIcon from "../../../assets/icons/unreal_engine.svg?component";
 	import ComposeMPFIcon from "../../../assets/icons/compose_mpf.svg?component";
+	import TauriIcon from "../../../assets/icons/tauri.svg?component";
 </script>
 
 <SkillSubsection label="TODO">
@@ -18,6 +19,9 @@
 		</SkillCard>
 		<SkillCard name="Compose Multiplatform">
 			<ComposeMPFIcon />
+		</SkillCard>
+		<SkillCard name="Tauri">
+			<TauriIcon />
 		</SkillCard>
 	</SkillsGrid>
 </SkillSubsection>

@@ -13,5 +13,6 @@
 		<TextSkillCard name="CLI Tools" />
 		<TextSkillCard name="Websockets" />
 		<TextSkillCard name="Microservices" />
+		<TextSkillCard name="Tracing" />
 	</SkillsGrid>
 </SkillSubsection>

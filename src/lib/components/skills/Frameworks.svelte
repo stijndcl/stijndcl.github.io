@@ -3,24 +3,17 @@
 	import SkillsGrid from "$lib/components/skills/SkillsGrid.svelte";
 	import SkillCard from "$lib/components/skills/SkillCard.svelte";
 	import FastAPIIcon from "../../../assets/icons/fastapi.svg?component";
-	import SQLAlchemyIcon from "../../../assets/icons/sqlalchemy.svg?component";
 	import ReactIcon from "../../../assets/icons/react.svg?component";
 	import SvelteIcon from "../../../assets/icons/svelte.svg?component";
-	import Tailwind from "../../../assets/icons/tailwindcss.svg?component";
-	import Flask from "../../../assets/icons/flask.svg?component";
-	import Bootstrap from "../../../assets/icons/bootstrap.svg?component";
-	import Vue from "../../../assets/icons/vue.svg?component";
-	import Android from "../../../assets/icons/android.svg?component";
+	import TailwindIcon from "../../../assets/icons/tailwindcss.svg?component";
+	import FlaskIcon from "../../../assets/icons/flask.svg?component";
+	import AndroidIcon from "../../../assets/icons/android.svg?component";
 	import ComposeIcon from "../../../assets/icons/jetpack_compose.png";
-	import Fiber from "../../../assets/icons/fiber.svg?component";
-	import Electron from "../../../assets/icons/electron.svg?component";
+	import KtorIcon from "../../../assets/icons/ktor.svg?component"
 </script>
 
 <SkillSubsection label="Frameworks">
 	<SkillsGrid>
-		<SkillCard name="SQLAlchemy">
-			<SQLAlchemyIcon />
-		</SkillCard>
 		<SkillCard name="FastAPI">
 			<FastAPIIcon />
 		</SkillCard>
@@ -31,28 +24,19 @@
 			<SvelteIcon />
 		</SkillCard>
 		<SkillCard name="TailwindCSS">
-			<Tailwind />
+			<TailwindIcon />
+		</SkillCard>
+		<SkillCard name="Ktor">
+			<KtorIcon />
 		</SkillCard>
 		<SkillCard name="Android">
-			<Android />
+			<AndroidIcon />
 		</SkillCard>
 		<SkillCard name="Jetpack Compose">
 			<img src={ComposeIcon} alt="Jetpack Compose" />
 		</SkillCard>
 		<SkillCard name="Flask">
-			<Flask />
-		</SkillCard>
-		<SkillCard name="Bootstrap">
-			<Bootstrap />
-		</SkillCard>
-		<SkillCard name="VueJS">
-			<Vue />
-		</SkillCard>
-		<SkillCard name="Fiber">
-			<Fiber />
-		</SkillCard>
-		<SkillCard name="Electron">
-			<Electron />
+			<FlaskIcon />
 		</SkillCard>
 	</SkillsGrid>
 </SkillSubsection>
