@@ -9,7 +9,7 @@
 	import FlaskIcon from "../../../assets/icons/flask.svg?component";
 	import AndroidIcon from "../../../assets/icons/android.svg?component";
 	import ComposeIcon from "../../../assets/icons/jetpack_compose.png";
-	import KtorIcon from "../../../assets/icons/ktor.svg?component"
+	import KtorIcon from "../../../assets/icons/ktor.svg?component";
 </script>
 
 <SkillSubsection label="Frameworks">

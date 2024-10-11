@@ -18,7 +18,7 @@
 		return startFormatted + " — Now";
 	}
 
-	setContext("active", { "active": true })
+	setContext("active", { active: true });
 </script>
 
 <article

@@ -92,8 +92,8 @@
 				<Flask />
 				<TypeScript />
 			</svelte:fragment>
-			Created a REST API for an SMS and email service, and a full-stack web app that automatically generates and posts personalized pamflets
-			and flyers to potential future customers.
+			Created a REST API for an SMS and email service, and a full-stack web app that automatically generates and posts personalized
+			pamflets and flyers to potential future customers.
 		</ExperienceCard>
 	</div>
 </div>

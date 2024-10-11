@@ -4,7 +4,7 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				"lighthouseOrange": "#fd8237"
+				lighthouseOrange: "#fd8237",
 			},
 			screens: {
 				supportshover: { raw: "(hover: hover)" },

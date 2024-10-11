@@ -5,7 +5,6 @@
 	export let url: string;
 
 	const { active } = getContext("active");
-
 </script>
 
 <!-- TODO tooltip on hover? -->
@@ -14,7 +13,7 @@
 	href={url}
 	target="_blank"
 	rel="noreferrer"
-	class={`w-6 h-6 supportshover:hover:cursor-pointer ${ active ? "" : "supportshover:grayscale supportshover:group-hover/card:grayscale-0"}`}
+	class={`w-6 h-6 supportshover:hover:cursor-pointer ${active ? "" : "supportshover:grayscale supportshover:group-hover/card:grayscale-0"}`}
 >
 	<slot />
 </a>

@@ -21,7 +21,7 @@
 		return startFormatted + endFormatted;
 	}
 
-	setContext("active", { "active": false })
+	setContext("active", { active: false });
 </script>
 
 <article
